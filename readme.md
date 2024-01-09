@@ -3,6 +3,13 @@
 
 #### 安装依赖
 ```bash
+apt install llvm-dev libclang-dev clang
+
+dnf install clang-devel
+
+brew install llvm
+
+# 待绑定的 lib
 apt install libsecp256k1-dev
 ```
 
