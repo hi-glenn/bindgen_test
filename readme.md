@@ -24,6 +24,8 @@ cargo build
 
 #### 运行 lib.rs 中的实例
 ```bash
+cargo test --lib -- test_create_pubkey
+
 cargo test --package playground --lib -- test_create_pubkey --exact --nocapture
 ```
 
